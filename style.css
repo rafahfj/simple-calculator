@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+main {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 25px;
+  color: black;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  display: grid;
+  width: 300px;
+  height: 420px;
+  margin: 100px auto;
+  grid-template-areas:
+    "monitor monitor monitor monitor"
+    "a b c d "
+    "e f g h "
+    "i j k l "
+    "m n o p "
+    "nol nol r s ";
+  gap: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section div {
+  background-color: rgb(0, 119, 255);
+  display: flex;
+  width: 75px;
+  height: 65px;
+}
+
+section div p {
+  margin: auto;
+}
+
+.monitor p {
+  font-size: 1.9em;
+  margin: auto 3px;
+  font-weight: 600;
+  color: rgb(43, 43, 43);
+}
+
+section .darker {
+  background-color: blue;
+}
+section .monitor {
+  grid-area: monitor;
+  width: 95%;
+  height: 70px;
+  background-color: rgb(211, 211, 211);
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.a {
+  grid-area: a;
+}
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.f {
+  grid-area: f;
+}
+.g {
+  grid-area: g;
+}
+.h {
+  grid-area: h;
+}
+.i {
+  grid-area: i;
+}
+.j {
+  grid-area: j;
+}
+.k {
+  grid-area: k;
+}
+.l {
+  grid-area: l;
+}
+.m {
+  grid-area: m;
+}
+.n {
+  grid-area: n;
+}
+.o {
+  grid-area: o;
+}
+.p {
+  grid-area: p;
+}
+.nol {
+  grid-area: nol;
+  width: 100%;
+}
+.r {
+  grid-area: r;
+}
+.s {
+  grid-area: s;
+}
